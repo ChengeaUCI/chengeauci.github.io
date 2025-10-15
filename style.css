@@ -1,0 +1,64 @@
+.entrance-container {
+            display: flex;
+            background-image: url("pictures/marb150.jpg");
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 1000px;
+            margin: auto;
+            box-shadow: 20px 15px 20px rgb(104, 90, 54);
+            border: 5px inset white;
+           
+        }
+
+        .entrance-content {
+            text-align: center;
+            color: white;
+            padding:10px;
+        }
+
+        .entrance-text {
+            padding: 10px;
+        }
+
+        .entrance-footer {
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+            border-top: 5px inset white;
+            width:99%;
+            background-color: black;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            padding:5px;
+        }
+
+        .imagecontainer {
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             align-items: center;
+        }
+
+        .lists {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.lists ul {
+list-style-position: inside;
+}
+
+.linkcolor a:link {
+    color: white;
+}
+
+.linkcolor a:visited {
+    color: white;
+}
+
+body {
+    background-attachment: fixed;
+}
