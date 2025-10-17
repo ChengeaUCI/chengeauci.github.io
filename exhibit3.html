@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+    <link href="/lightbox/css/lightbox.css" rel="stylesheet" />
     <style>
         body {
-            background-image: url("/pictures/pSMz9tO.gif");
+            background-image: url("/pictures/dgren011.jpg");
             
+        }
+
+        .entrance-container {
+            background-image: url("/pictures/marb109.jpg") !important;
+            box-shadow: 20px 15px 20px rgb(17, 34, 25) !important
         }
     </style>
       <meta charset="UTF-8">
-      <title>Exhibit 1</title>
+      <title>Boros Bunker</title>
       <link href="/style.css" rel="stylesheet" type="text/css" media="all">
    </head>
    <body>
     <div class="entrance-container">
         <div class="entrance-content">
     <header>
-        <h1>Exhibit 3</h1>
+        <h1>Boros Bunker</h1>
     </header>
     <article>
-     <div class="imagecontainer">
-<img src="pictures/istockphoto-182391849-612x612.jpg">
-<img src="pictures/istockphoto-182391849-612x612.jpg">
-<img src="pictures/istockphoto-182391849-612x612.jpg">
-<img src="pictures/istockphoto-182391849-612x612.jpg">
-</div>
-<p>The subjects of the exhibit are lined up neatly in rows against the museum wall, with each photograph/painting having a plaque with a nifty contextual description and explanation of the significance of the work. Which one will you view first?</p>
+        <p>The subjects of the exhibit are lined up neatly in rows against the museum wall, with each photograph having a plaque with a nifty contextual description and explanation of the significance of the work. You read each plaque carefully as you progress sequentially through each work. <br> <br>
+            <small>Click the portraits for full view!</small>
+        </p>
+        <div class="imagecontainer">
+    <a href="/exhibit3/borosmain1.jpg" data-lightbox="modern" data-title="Renovated bunker.">
+            <img src="/exhibit3/borosthumb1.png">
+            </a>
+           <a href="/exhibit3/borosmain2.png" data-lightbox="modern" data-title="An exhibit from the Boros Bunker.">
+            <img src="/exhibit3/borosthumb2.png">
+            </a>
+            <a href="/exhibit3/borosmain3.jpg" data-lightbox="modern" data-title="Bathroom and grafitti when it was still a club.">
+            <img src="/exhibit3/borosthumb3.png">
+            </a>
+        </div>
+         <a href="/exhibit3/borosmain4.gif" data-lightbox="modern" data-title="Before renovation.">
+            <img src="/exhibit3/borosthumb4.png">
+            </a>
+<h2>Introduction</h2>
+<p>"The Reichsbahnbunker Friedrichstraße (Boros Collection - Bunker) is a private art collection with a one-of-a-kind approach to contemporary art. It is one of the many pieces of architecture still standing that carries Berlin's rich history embedded with creativity of the modern era. Its purpose has evolved drastically over the years, but to this day the bunker carries with it a heavy and mysterious atmosphere from its origins as an old war bunker."
+</p>
+<h2>History</h2>
+<ul class="lists">
+<li>"1942: Constructed by Nazi Germany to shelter up to 3,000 civilians.</li>
+<li>1945: Becomes occupied by the Red Army to be used as a war prison.</li>
+<li>1949: Becomes a warehouse for textiles.</li>
+<li>1957: Used as storage for imported tropical fruit from Cuba. Earning the nickname “Banana Bunker.”</li>
+<li>1990: Owned by the Federal Republic of Germany after reunification.</li>
+<li>1992: The techno club “Bunker” becomes one of the most important centers of the electro scene. Considered one of the most hardcore clubs in the world because of its fetish and fantasy parties. </li>
+<li>2003: Karen and Christian Boros buy the bunker to make their collection of contemporary art accessible to the public in the converted bunker.</li>
+<li>2007: Completion of remodelling and opened to the public."</li>
+</ul>
+<h2>Cultural Significance</h2>
+<p>"The Reichsbahnbunker Friedrichstraße is a place shaped by destruction and cultural transformation. The bunker's atmosphere still feels heavy and grim carrying the history of war from its original purpose in 1942 as a Nazi bomb shelter and in 1945 as a war prison. However its conversion from war bunker to soviet prison to techno club and finally to an art museum reflects Berlin's own embracement of its scars left by war and division. The bunker could have remained a site of fear and relic, however Berliners chose to repurpose this reminder of war into a center of culture and art."
+</p>
     </article>
 </div>
 <footer class="entrance-footer linkcolor">
@@ -35,5 +68,13 @@
         <img src="/pictures/hamsterbuddies.gif">
     </footer>
 </div>
+<script src="/lightbox/js/lightbox-plus-jquery.js"></script>
+   <script>
+lightbox.option({
+  'resizeDuration': 400,
+  'imageFadeDuration': 0,
+  'wrapAround': true
+  })
+</script>
     </body>
     </html>
